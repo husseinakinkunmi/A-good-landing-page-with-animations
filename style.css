@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    align-items: center;
+    display: flex;
+    width: auto;
+    padding-left: 30px;
+}
+
+.nav-bar img{
+    padding-left: 200px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-left: 400px;
+    width: 500px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    cursor: pointer;
+}
+
+.kk{
+display: flex;
+height: 500px;
+padding-left: 200px;
+justify-content: space-between;
+border-bottom: 3px solid rgb(175, 175, 175);
+}
+
+.kk1{
+    margin-top: 200px;
+    animation: k1 0.6s linear forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+@keyframes k1{
+    from{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.kk1 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kk2{
+    color: rgba(69, 69, 71, 0.795);
+    border-left: 3px solid;
+    padding-left: 15px;
+    border-color: rgba(69, 69, 71, 0.795);
+}
+
+.kk3{
+    background-color: red;
+    border: none;
+    color: white;
+    width: 150px;
+    height: 30px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 3px;
+    border-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: k3 0.6s linear forwards;
+    animation-delay: 1s;
+    opacity: 0;
+
+}
+
+@keyframes k3{
+    from{
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.kk4{
+    margin-top: 200px;
+    animation: k4 0.5s linear forwards;
+    animation-delay: 1s;
+    transform: translate(500px);
+}
+@keyframes k4{
+    from{
+        transform: translate(500px);
+    }
+    to{
+        transform: translate(50px);
+    }
+}
+
+
+.kk5{
+    height: 800px;
+}
+
+.txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 1000px;
+    height: 800px;
+    margin-left: 170px;
+}
+
+.txt1{
+    display: flex;
+    justify-content: space-evenly;
+    display: flex;
+    animation: tx1 0.6s linear forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+@keyframes tx1{
+    from{
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.kk6{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kk6 h3{
+    color: rgb(121, 118, 118);
+}
+
+.kk6 .im{
+    color: red; 
+    
+}
+
+.txt2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.kk7 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.kk7{
+    margin-top: 110px;
+}
+
+.kk8{
+    padding-left: 15px;
+    border-left: 3px solid;
+    border-color: rgba(69, 69, 71, 0.795);
+    color: rgba(69, 69, 71, 0.795);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kk9{
+    width: 80px;
+    height: 30px;
+    background-color: red;
+    border-radius: 3px;
+    border: none;
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.ll{
+    background-image: url(runners.jpg);
+    height: 400px;
+    background-size: cover;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 700px;
+    padding-top: 200px;
+}
+
+.ll1{
+    padding-left: 15px;
+    border-left: 3px solid;
+    border-color: white;
+}
+
+.ll2{
+    background-color: red;
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
